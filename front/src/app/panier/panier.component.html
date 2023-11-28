@@ -1,0 +1,6 @@
+<div *ngFor="let produit of cart$ |async">
+    <app-produit [produit]="produit"></app-produit>
+</div>
+
+<h2>Total: {{totalCost | currency:'EUR'}}</h2>
+<button (click)="sendCartToServer()">Send Cart to Server</button>
