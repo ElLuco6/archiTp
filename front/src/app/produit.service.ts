@@ -3,41 +3,33 @@ import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable, catchError, map } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ProduitService {
-
-  cart:any[] =[]
+  cart: any[] = [];
   private cartItemsSubject = new BehaviorSubject<any[]>([]);
   cartItems$: Observable<any[]> = this.cartItemsSubject.asObservable();
   private totalCostSubject = new BehaviorSubject<number>(0);
   totalCost$: Observable<number> = this.totalCostSubject.asObservable();
   readonly STORAGE_KEY = 'your_cart_key';
-  private readonly API_URL = 'https://postman-rest-api-learner.glitch.me/'; 
+  private readonly API_URL = 'https://postman-rest-api-learner.glitch.me/';
   private readonly JSON_FILE_URL = '../assets/fake.json';
 
   constructor(public http: HttpClient) {
     this.loadCartFromStorage();
-   }
+  }
 
   getProduit(): Observable<any[]> {
-    return this.http.get<any>(this.JSON_FILE_URL).pipe(
-      map(response => response.products),
-      catchError(error => {
+    return this.http.get<any>('http://localhost:3000/product/').pipe(
+      map((response) => response.products),
+      catchError((error) => {
         console.error('Error getting products:', error);
         throw error;
       })
     );
   }
   getProductById(productId: string): Observable<any> {
-    return this.http.get<any>(this.JSON_FILE_URL)
-      .pipe(
-        map(response => response.products.find((product: { _id: string; }) => product._id === productId)),
-        catchError(error => {
-          console.error(`Error getting product with ID ${productId}:`, error);
-          throw error;
-        })
-      );
+    return this.http.get<any>('http://localhost:3000/product/' + productId);
   }
 
   getTotalCost(cartItems: any[]): void {
@@ -74,6 +66,8 @@ export class ProduitService {
   sendCartToServer(): Observable<any> {
     const cartData = this.cartItemsSubject.value;
 
-    return this.http.post<any>(this.API_URL, { cart: cartData });
+    return this.http.post<any>('http://localhost:3000/order/', {
+      items: cartData,
+    });
   }
 }
