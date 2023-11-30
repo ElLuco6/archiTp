@@ -18,7 +18,7 @@ export class ProduitService {
    }
 
   getProduit(): Observable<any[]> {
-    return this.http.get<any[]>('../assets/fake.json');
+    return this.http.get<any[]>('http://localhost:3000/product/');
   }
   getTotalCost(): number {
     const cartItems = this.cartItemsSubject.value;
