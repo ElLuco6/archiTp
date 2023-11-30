@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { ProduitService } from '../produit.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-produit',
@@ -8,5 +9,9 @@ import { ProduitService } from '../produit.service';
 })
 export class ProduitComponent {
 @Input() produit: any
-constructor(public ProduitService:ProduitService){}
+hideContent:boolean
+constructor(public ProduitService:ProduitService,
+  private router: Router){
+            this.hideContent = this.router.url.includes('/panier');
+            }
 }
