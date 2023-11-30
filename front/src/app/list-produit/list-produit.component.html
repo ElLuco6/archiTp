@@ -1,4 +1,11 @@
-<div class="container">
+
+<ng-container *ngIf="loading == true">
+
+    <mat-spinner></mat-spinner>
+  
+  </ng-container>
+
+  <div class="container" *ngIf="loading == false" >
   <div *ngFor="let produit of produits$ |async">
     <app-produit [produit]="produit"></app-produit>
 

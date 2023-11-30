@@ -10,6 +10,7 @@ import { Observable } from 'rxjs';
 })
 export class ListProduitComponent implements OnInit{
   produits$:Observable<any[]> = new Observable<any[]>();
+  loading = true
   constructor(public http: HttpClient,
               public ProduitService:ProduitService){
 
@@ -17,5 +18,10 @@ export class ListProduitComponent implements OnInit{
   
   ngOnInit(): void {
    this.produits$ =  this.ProduitService.getProduit()
+   this.produits$.subscribe(data=>{
+    if(data.length > 900){
+      this.loading = false
+    }
+   })
   }
 }
