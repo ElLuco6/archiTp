@@ -9,19 +9,17 @@ import { Observable } from 'rxjs';
 })
 export class PanierComponent implements OnInit{
   cart$: Observable<any[]> = new Observable<any[]>();
-  totalCost = 0
+  totalCost: Observable<number> = new Observable<number>();
 
 constructor(public ProduitService: ProduitService){
 
 }
   ngOnInit(){
 this.cart$ = this.ProduitService.cartItems$
-this.calculateTotalCost();
+this.totalCost = this.ProduitService.totalCost$;
 
   }
-  calculateTotalCost(): void {
-    this.totalCost = this.ProduitService.getTotalCost();
-  }
+  
 
   sendCartToServer(): void {
     this.ProduitService.sendCartToServer().subscribe(

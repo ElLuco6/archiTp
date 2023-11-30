@@ -1,6 +1,7 @@
-<button mat-button color="primary" routerLink="/panier">Panier</button>
-<div *ngFor="let produit of produits$ |async">
-<app-produit [produit]="produit"></app-produit>
+<div class="container">
+  <div *ngFor="let produit of produits$ |async">
+    <app-produit [produit]="produit"></app-produit>
 
-  
+
+  </div>
 </div>

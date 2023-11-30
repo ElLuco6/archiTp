@@ -1,38 +1,2073 @@
-[{
-    "id":1,
-    "name": "ATP2000",
-    "price": 2000,
-    "desc": "lorem"
-},
 {
-    "id":2,
-    "name": "ATP2000",
-    "price": 2000,
-    "desc": "lorem"
-},
-{
-    "id":3,
-    "name": "ATP2000",
-    "price": 2000,
-    "desc": "lorem"
-},
-{
-    "id":4,
-    "name": "ATP2000",
-    "price": 2000,
-    "desc": "lorem"
-},
-{
-    "id":5,
-    "name": "ATP2000",
-    "price": 2000,
-    "desc": "lorem"
-},
-
-{
-    "id":6,
-    "name": "ATP2000",
-    "price": 2000,
-    "desc": "lorem"
+  "success": true,
+  "products": [{
+      "_id": "6565cd143dcfa1e52e8cbaff",
+      "id": "tt0114950",
+      "name": "Wing Commander IV: The Price of Freedom",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.648Z",
+      "updatedAt": "2023-11-28T11:20:52.648Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbaf9",
+      "id": "tt0110267",
+      "name": "King's Quest VII: The Princeless Bride",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.647Z",
+      "updatedAt": "2023-11-28T11:20:52.647Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb06",
+      "id": "tt0117934",
+      "name": "SSN",
+      "genres": [
+        "Action"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.649Z",
+      "updatedAt": "2023-11-28T11:20:52.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb09",
+      "id": "tt0119498",
+      "name": "The Last Express",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.649Z",
+      "updatedAt": "2023-11-28T11:20:52.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb11",
+      "id": "tt0125516",
+      "name": "Star Trek: Starfleet Academy",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.649Z",
+      "updatedAt": "2023-11-28T11:20:52.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb14",
+      "id": "tt0131029",
+      "name": "Star Trek: The Next Generation - A Final Unity",
+      "genres": [
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb18",
+      "id": "tt0132641",
+      "name": "Zork: Grand Inquisitor",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb19",
+      "id": "tt0134599",
+      "name": "The Curse of Monkey Island",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb1c",
+      "id": "tt0138458",
+      "name": "Gabriel Knight 3: Blood of the Sacred, Blood of the Damned",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Horror"
+      ],
+      "year": 1999,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb1f",
+      "id": "tt0142210",
+      "name": "Dark Seed II",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb20",
+      "id": "tt0142255",
+      "name": "DuckTales: The Quest for Gold",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "year": 1990,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb22",
+      "id": "tt0142698",
+      "name": "Noir",
+      "genres": [
+        "Adventure",
+        "Crime",
+        "Mystery"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb23",
+      "id": "tt0142962",
+      "name": "Video Speedway",
+      "genres": [
+        "Action"
+      ],
+      "year": 1993,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb28",
+      "id": "tt0144366",
+      "name": "Multimedia Celebrity Poker",
+      "genres": [
+        "Comedy",
+        "Sport"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb2c",
+      "id": "tt0146341",
+      "name": "Virtual Photo Shoot: Volume One",
+      "genres": [
+        "\\N"
+      ],
+      "year": 1993,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb2d",
+      "id": "tt0146893",
+      "name": "Fist of the North Star",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb34",
+      "id": "tt0152100",
+      "name": "Psychotron",
+      "genres": [
+        "Adventure",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb36",
+      "id": "tt0152360",
+      "name": "Seicross",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "year": 1984,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb40",
+      "id": "tt0155165",
+      "name": "Shattered Steel",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb41",
+      "id": "tt0156854",
+      "name": "Puss N Boots: Pero's Great Adventure",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1990,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb48",
+      "id": "tt0158814",
+      "name": "Myst",
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Mystery"
+      ],
+      "year": 1993,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb4a",
+      "id": "tt0158958",
+      "name": "The Simpsons: Virtual Springfield",
+      "genres": [
+        "Adventure",
+        "Comedy"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb4f",
+      "id": "tt0159772",
+      "name": "Star Trek: The Game Show",
+      "genres": [
+        "Family",
+        "Game-Show"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb51",
+      "id": "tt0160912",
+      "name": "Starfleet Academy: Chekov's Lost Missions",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb54",
+      "id": "tt0161941",
+      "name": "Resident Evil 2",
+      "genres": [
+        "Action",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb57",
+      "id": "tt0162010",
+      "name": "Time Traveler",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1991,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb5b",
+      "id": "tt0162409",
+      "name": "Ironsword: Wizards & Warriors II",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1988,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb5c",
+      "id": "tt0163281",
+      "name": "Star Wars: Dark Forces",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb61",
+      "id": "tt0164310",
+      "name": "The 11th Hour",
+      "genres": [
+        "Adventure",
+        "Horror",
+        "Mystery"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb64",
+      "id": "tt0165025",
+      "name": "Gex",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Fantasy"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb65",
+      "id": "tt0165146",
+      "name": "Chess Wars",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb69",
+      "id": "tt0165789",
+      "name": "Freelancer",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Mystery"
+      ],
+      "year": 2003,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb6c",
+      "id": "tt0166387",
+      "name": "Under a Killing Moon",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb6e",
+      "id": "tt0167018",
+      "name": "Baldur's Gate",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb71",
+      "id": "tt0169922",
+      "name": "Descent: FreeSpace - The Great War",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb74",
+      "id": "tt0171392",
+      "name": "I'm Your Man",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "year": 1992,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb76",
+      "id": "tt0172179",
+      "name": "Black Dahlia",
+      "genres": [
+        "Adventure",
+        "Crime",
+        "Fantasy"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb7c",
+      "id": "tt0176641",
+      "name": "The Dark Eye",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Horror"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb7e",
+      "id": "tt0176925",
+      "name": "The Legend of Zelda",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1986,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb7f",
+      "id": "tt0176971",
+      "name": "Mario Bros.",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "year": 1983,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb83",
+      "id": "tt0178952",
+      "name": "Toy Story",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Family"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb8c",
+      "id": "tt0181047",
+      "name": "Tekken 3",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb8d",
+      "id": "tt0181129",
+      "name": "Victory Boxing 2",
+      "genres": [
+        "\\N"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb9c",
+      "id": "tt0184529",
+      "name": "Godzilla: Monster of Monsters",
+      "genres": [
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1988,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb9d",
+      "id": "tt0184666",
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb9e",
+      "id": "tt0184682",
+      "name": "Lode Runner",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "year": 1983,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbba4",
+      "id": "tt0185037",
+      "name": "Zelda II: The Adventure of Link",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1987,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbba5",
+      "id": "tt0185194",
+      "name": "Blue's Birthday Adventure",
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Family"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbba8",
+      "id": "tt0185834",
+      "name": "10-Yard Fight",
+      "genres": [
+        "Sport"
+      ],
+      "year": 1983,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbab",
+      "id": "tt0185887",
+      "name": "Arkanoid",
+      "genres": [
+        "Action",
+        "Family",
+        "Sci-Fi"
+      ],
+      "year": 1986,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbac",
+      "id": "tt0185892",
+      "name": "Athena",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1986,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbb0",
+      "id": "tt0185960",
+      "name": "Bucky O'Hare",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1992,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbb1",
+      "id": "tt0185967",
+      "name": "BurgerTime",
+      "genres": [
+        "Action",
+        "Family"
+      ],
+      "year": 1982,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbb4",
+      "id": "tt0185993",
+      "name": "Clu Clu Land",
+      "genres": [
+        "Action",
+        "Family",
+        "Fantasy"
+      ],
+      "year": 1984,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbb5",
+      "id": "tt0185996",
+      "name": "Commando",
+      "genres": [
+        "Action"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbc5",
+      "id": "tt0186230",
+      "name": "Ice Climber",
+      "genres": [
+        "Action",
+        "Family"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbc8",
+      "id": "tt0186263",
+      "name": "Karate Champ",
+      "genres": [
+        "Action",
+        "Sport"
+      ],
+      "year": 1984,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbc9",
+      "id": "tt0186264",
+      "name": "The Karate Kid",
+      "genres": [
+        "Sport"
+      ],
+      "year": 1987,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbcd",
+      "id": "tt0186301",
+      "name": "The Legend of Kage",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbd2",
+      "id": "tt0186359",
+      "name": "Mighty Bomb Jack",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "year": 1987,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbd3",
+      "id": "tt0186360",
+      "name": "Mike Tyson's Punch-Out!!",
+      "genres": [
+        "Sport"
+      ],
+      "year": 1987,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbd4",
+      "id": "tt0186368",
+      "name": "Mission Critical",
+      "genres": [
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbda",
+      "id": "tt0186496",
+      "name": "Ring King",
+      "genres": [
+        "Sport"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbdb",
+      "id": "tt0186498",
+      "name": "Stack-Up",
+      "genres": [
+        "\\N"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbef",
+      "id": "tt0186634",
+      "name": "Track & Field",
+      "genres": [
+        "Sport"
+      ],
+      "year": 1983,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbf1",
+      "id": "tt0186670",
+      "name": "Urban Champion",
+      "genres": [
+        "Action"
+      ],
+      "year": 1984,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbafa",
+      "id": "tt0110714",
+      "name": "Off-World Interceptor",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.647Z",
+      "updatedAt": "2023-11-28T11:20:52.647Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbafc",
+      "id": "tt0111727",
+      "name": "Wing Commander III: Heart of the Tiger",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.648Z",
+      "updatedAt": "2023-11-28T11:20:52.648Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbafd",
+      "id": "tt0113863",
+      "name": "Mr. Payback: An Interactive Movie",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.648Z",
+      "updatedAt": "2023-11-28T11:20:52.648Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb01",
+      "id": "tt0116113",
+      "name": "Disruptor",
+      "genres": [
+        "Action",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.649Z",
+      "updatedAt": "2023-11-28T11:20:52.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb03",
+      "id": "tt0117391",
+      "name": "Privateer 2: The Darkening",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Mystery"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.649Z",
+      "updatedAt": "2023-11-28T11:20:52.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb04",
+      "id": "tt0117483",
+      "name": "Ripper",
+      "genres": [
+        "Adventure",
+        "Crime",
+        "Horror"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.649Z",
+      "updatedAt": "2023-11-28T11:20:52.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb0c",
+      "id": "tt0124141",
+      "name": "Star Trek: Klingon",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.649Z",
+      "updatedAt": "2023-11-28T11:20:52.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb0d",
+      "id": "tt0124142",
+      "name": "Steven Spielberg's Director's Chair",
+      "genres": [
+        "Family"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.649Z",
+      "updatedAt": "2023-11-28T11:20:52.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb12",
+      "id": "tt0126817",
+      "name": "Blade Runner",
+      "genres": [
+        "Mystery",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb17",
+      "id": "tt0131537",
+      "name": "Phantasmagoria",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb1d",
+      "id": "tt0138459",
+      "name": "The Beast Within: A Gabriel Knight Mystery",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Horror"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb1e",
+      "id": "tt0139156",
+      "name": "The Dig",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb21",
+      "id": "tt0142392",
+      "name": "I Have No Mouth, and I Must Scream",
+      "genres": [
+        "Horror",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb25",
+      "id": "tt0144009",
+      "name": "Who Killed Taylor French?",
+      "genres": [
+        "Adventure",
+        "Crime",
+        "Mystery"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb26",
+      "id": "tt0144157",
+      "name": "Dark Seed",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "year": 1992,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb2b",
+      "id": "tt0145868",
+      "name": "Kid Icarus",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Family"
+      ],
+      "year": 1986,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb32",
+      "id": "tt0151622",
+      "name": "Monster in My Pocket",
+      "genres": [
+        "Adventure",
+        "Horror"
+      ],
+      "year": 1992,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.650Z",
+      "updatedAt": "2023-11-28T11:20:52.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb35",
+      "id": "tt0152116",
+      "name": "Quake",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb39",
+      "id": "tt0153067",
+      "name": "Star Wars: TIE Fighter",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb3c",
+      "id": "tt0154356",
+      "name": "Conquest of the New World",
+      "genres": [
+        "\\N"
+      ],
+      "year": 1993,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb3d",
+      "id": "tt0154392",
+      "name": "Descent",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb45",
+      "id": "tt0158208",
+      "name": "Star Wars: Shadows of the Empire",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb4c",
+      "id": "tt0159100",
+      "name": "Virtual Snooker",
+      "genres": [
+        "\\N"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb4d",
+      "id": "tt0159646",
+      "name": "Phantasmagoria 2: A Puzzle of Flesh",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb53",
+      "id": "tt0161443",
+      "name": "Cliff Hanger",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "year": 1983,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.651Z",
+      "updatedAt": "2023-11-28T11:20:52.651Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb5a",
+      "id": "tt0162408",
+      "name": "Ivan Ironman Stewart's Super Off Road",
+      "genres": [
+        "Sport"
+      ],
+      "year": 1989,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb5d",
+      "id": "tt0163282",
+      "name": "Star Wars: X-Wing",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1993,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb60",
+      "id": "tt0164179",
+      "name": "Star Wars: Jedi Knight - Mysteries of the Sith",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb62",
+      "id": "tt0164964",
+      "name": "The Vortex: Quantum Gate II",
+      "genres": [
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb66",
+      "id": "tt0165179",
+      "name": "Command & Conquer: Red Alert - Retaliation",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb67",
+      "id": "tt0165275",
+      "name": "Dune 2000",
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "War"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb6a",
+      "id": "tt0165985",
+      "name": "Command & Conquer: Tiberian Sun",
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "War"
+      ],
+      "year": 1999,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.652Z",
+      "updatedAt": "2023-11-28T11:20:52.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb7a",
+      "id": "tt0176236",
+      "name": "Titanic: Adventure Out of Time",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Mystery"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb7b",
+      "id": "tt0176457",
+      "name": "Apocalypse",
+      "genres": [
+        "Action",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb80",
+      "id": "tt0177266",
+      "name": "Super Mario Bros.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb81",
+      "id": "tt0177395",
+      "name": "Yellow Brick Road",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb82",
+      "id": "tt0177822",
+      "name": "Grim Fandango",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb89",
+      "id": "tt0180949",
+      "name": "Colin McRae Rally",
+      "genres": [
+        "Sport"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb8e",
+      "id": "tt0181143",
+      "name": "WCW: Nitro",
+      "genres": [
+        "Action"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb90",
+      "id": "tt0181422",
+      "name": "Crash Bandicoot: Warped",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb92",
+      "id": "tt0182931",
+      "name": "Corpse Killer",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Horror"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb96",
+      "id": "tt0183066",
+      "name": "Fallout 2: A Post-Nuclear Role-Playing Game",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb97",
+      "id": "tt0183515",
+      "name": "Mighty Morphin Power Rangers",
+      "genres": [
+        "Action",
+        "Family"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb98",
+      "id": "tt0183816",
+      "name": "Star Wars: Rogue Squadron",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.653Z",
+      "updatedAt": "2023-11-28T11:20:52.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbb9f",
+      "id": "tt0184692",
+      "name": "Mach Rider",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbba0",
+      "id": "tt0184785",
+      "name": "Noctropolis",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "year": 1994,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbba6",
+      "id": "tt0185274",
+      "name": "Doctor Who: Destiny of the Doctors",
+      "genres": [
+        "Sci-Fi"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbba9",
+      "id": "tt0185835",
+      "name": "1942",
+      "genres": [
+        "Action",
+        "War"
+      ],
+      "year": 1984,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbad",
+      "id": "tt0185904",
+      "name": "Balloon Fight",
+      "genres": [
+        "Action",
+        "Family",
+        "Sport"
+      ],
+      "year": 1984,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbb8",
+      "id": "tt0186036",
+      "name": "Donkey Kong Jr. Math",
+      "genres": [
+        "Family"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbbe",
+      "id": "tt0186081",
+      "name": "World Class Track Meet",
+      "genres": [
+        "Family",
+        "Sport"
+      ],
+      "year": 1986,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbc1",
+      "id": "tt0186172",
+      "name": "The Goonies II",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "year": 1987,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbc3",
+      "id": "tt0186178",
+      "name": "Gradius",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbc4",
+      "id": "tt0186211",
+      "name": "Hogan's Alley",
+      "genres": [
+        "Action"
+      ],
+      "year": 1984,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbc7",
+      "id": "tt0186251",
+      "name": "Jaws",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "year": 1987,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.654Z",
+      "updatedAt": "2023-11-28T11:20:52.654Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbcb",
+      "id": "tt0186272",
+      "name": "Kid Niki: Radical Ninja",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Family"
+      ],
+      "year": 1986,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbd0",
+      "id": "tt0186339",
+      "name": "Mega Man",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1987,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbd1",
+      "id": "tt0186350",
+      "name": "Metroid",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Mystery"
+      ],
+      "year": 1986,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbd6",
+      "id": "tt0186450",
+      "name": "Pitfall!",
+      "genres": [
+        "Adventure"
+      ],
+      "year": 1982,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbdc",
+      "id": "tt0186499",
+      "name": "Gyromite",
+      "genres": [
+        "\\N"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbdd",
+      "id": "tt0186507",
+      "name": "Rush'n Attack",
+      "genres": [
+        "Action"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbe2",
+      "id": "tt0186555",
+      "name": "SkyKid",
+      "genres": [
+        "Action",
+        "War"
+      ],
+      "year": 1985,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbeb",
+      "id": "tt0186591",
+      "name": "Super Pitfall",
+      "genres": [
+        "Action"
+      ],
+      "year": 1987,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbec",
+      "id": "tt0186596",
+      "name": "Tag Team Wrestling",
+      "genres": [
+        "Sport"
+      ],
+      "year": 1983,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.655Z",
+      "updatedAt": "2023-11-28T11:20:52.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbf3",
+      "id": "tt0187405",
+      "name": "Planescape: Torment",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "year": 1999,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbf9",
+      "id": "tt0189110",
+      "name": "Star Trek: Judgment Rites",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1993,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbfa",
+      "id": "tt0189114",
+      "name": "Stonekeep",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbbfb",
+      "id": "tt0189200",
+      "name": "Waterworld",
+      "genres": [
+        "Adventure"
+      ],
+      "year": 1995,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc08",
+      "id": "tt0190586",
+      "name": "Obsidian",
+      "genres": [
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc0b",
+      "id": "tt0190703",
+      "name": "Resident Evil",
+      "genres": [
+        "Action",
+        "Horror",
+        "Mystery"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc12",
+      "id": "tt0191392",
+      "name": "Rama",
+      "genres": [
+        "Adventure",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc15",
+      "id": "tt0191898",
+      "name": "Clandestiny",
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc18",
+      "id": "tt0192303",
+      "name": "Mega Man Legends",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "year": 1997,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.656Z",
+      "updatedAt": "2023-11-28T11:20:52.656Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc1c",
+      "id": "tt0193248",
+      "name": "Shark Jaws",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "year": 1975,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.657Z",
+      "updatedAt": "2023-11-28T11:20:52.657Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc1d",
+      "id": "tt0193264",
+      "name": "Killer Shark",
+      "genres": [
+        "Action"
+      ],
+      "year": 1974,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.657Z",
+      "updatedAt": "2023-11-28T11:20:52.657Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc24",
+      "id": "tt0197291",
+      "name": "Beware of the Aliens",
+      "genres": [
+        "\\N"
+      ],
+      "year": 1998,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.657Z",
+      "updatedAt": "2023-11-28T11:20:52.657Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc25",
+      "id": "tt0197364",
+      "name": "Civilization II",
+      "genres": [
+        "Adventure",
+        "History"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.657Z",
+      "updatedAt": "2023-11-28T11:20:52.657Z",
+      "__v": 0
+    },
+    {
+      "_id": "6565cd143dcfa1e52e8cbc26",
+      "id": "tt0197393",
+      "name": "The Dame Was Loaded",
+      "genres": [
+        "Adventure",
+        "Crime",
+        "Mystery"
+      ],
+      "year": 1996,
+      "price": 62,
+      "createdAt": "2023-11-28T11:20:52.657Z",
+      "updatedAt": "2023-11-28T11:20:52.657Z",
+      "__v": 0
+    }
+  ]
 }
-]

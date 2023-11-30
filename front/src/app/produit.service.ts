@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { BehaviorSubject, Observable, catchError, map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -10,20 +10,39 @@ export class ProduitService {
   cart:any[] =[]
   private cartItemsSubject = new BehaviorSubject<any[]>([]);
   cartItems$: Observable<any[]> = this.cartItemsSubject.asObservable();
+  private totalCostSubject = new BehaviorSubject<number>(0);
+  totalCost$: Observable<number> = this.totalCostSubject.asObservable();
   readonly STORAGE_KEY = 'your_cart_key';
   private readonly API_URL = 'https://postman-rest-api-learner.glitch.me/'; 
+  private readonly JSON_FILE_URL = '../assets/fake.json';
 
   constructor(public http: HttpClient) {
     this.loadCartFromStorage();
    }
 
   getProduit(): Observable<any[]> {
-    return this.http.get<any[]>('http://localhost:3000/product/');
+    return this.http.get<any>(this.JSON_FILE_URL).pipe(
+      map(response => response.products),
+      catchError(error => {
+        console.error('Error getting products:', error);
+        throw error;
+      })
+    );
   }
-  getTotalCost(): number {
-    const cartItems = this.cartItemsSubject.value;
+  getProductById(productId: string): Observable<any> {
+    return this.http.get<any>(this.JSON_FILE_URL)
+      .pipe(
+        map(response => response.products.find((product: { _id: string; }) => product._id === productId)),
+        catchError(error => {
+          console.error(`Error getting product with ID ${productId}:`, error);
+          throw error;
+        })
+      );
+  }
 
-    return cartItems.reduce((total, item) => total + item.price, 0);
+  getTotalCost(cartItems: any[]): void {
+    const totalCost = cartItems.reduce((total, item) => total + item.price, 0);
+    this.totalCostSubject.next(totalCost);
   }
 
   addToCart(item: any): void {
@@ -31,7 +50,7 @@ export class ProduitService {
     const updatedItems = [...currentItems, item];
     this.cartItemsSubject.next(updatedItems);
     this.saveCartToStorage(updatedItems);
-    this.getTotalCost();
+    this.getTotalCost(updatedItems);
   }
 
   removeFromCart(item: any): void {
@@ -39,13 +58,14 @@ export class ProduitService {
     const updatedItems = currentItems.filter((cartItem) => cartItem !== item);
     this.cartItemsSubject.next(updatedItems);
     this.saveCartToStorage(updatedItems);
-    this.getTotalCost();
+    this.getTotalCost(updatedItems);
   }
 
   loadCartFromStorage(): void {
     const storedCart = localStorage.getItem(this.STORAGE_KEY);
     const cartData = storedCart ? JSON.parse(storedCart) : [];
     this.cartItemsSubject.next(cartData);
+    this.getTotalCost(cartData);
   }
   saveCartToStorage(cartData: any[]): void {
     localStorage.setItem(this.STORAGE_KEY, JSON.stringify(cartData));
